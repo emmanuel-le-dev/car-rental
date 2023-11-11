@@ -1,4 +1,4 @@
-package com.nayo.karenkou.a.emmanuel.exceptions;
+package com.nayo.karenkou.a.emmanuel.car_rental_management.exceptions;
 
 public class DuplicateEntityException extends RuntimeException {
 

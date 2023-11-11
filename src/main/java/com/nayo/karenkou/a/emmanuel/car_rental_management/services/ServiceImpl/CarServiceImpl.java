@@ -5,10 +5,10 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.nayo.karenkou.a.emmanuel.car_rental_management.entities.Car;
+import com.nayo.karenkou.a.emmanuel.car_rental_management.exceptions.DuplicateEntityException;
+import com.nayo.karenkou.a.emmanuel.car_rental_management.exceptions.ResourceNotFoundException;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.repositories.CarRepository;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.services.ServiceInterfaces.CarServiceInterface;
-import com.nayo.karenkou.a.emmanuel.exceptions.DuplicateEntityException;
-import com.nayo.karenkou.a.emmanuel.exceptions.ResourceNotFoundException;
 
 import lombok.AllArgsConstructor;
 

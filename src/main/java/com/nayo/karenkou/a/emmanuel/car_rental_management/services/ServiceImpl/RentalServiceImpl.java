@@ -10,13 +10,13 @@ import com.nayo.karenkou.a.emmanuel.car_rental_management.entities.Customer;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.entities.Employee;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.entities.Rental;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.enums.RentalStatus;
+import com.nayo.karenkou.a.emmanuel.car_rental_management.exceptions.InvalidRentalException;
+import com.nayo.karenkou.a.emmanuel.car_rental_management.exceptions.ResourceNotFoundException;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.repositories.CarRepository;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.repositories.CustomerRepository;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.repositories.EmployeeRepository;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.repositories.RentalRepository;
 import com.nayo.karenkou.a.emmanuel.car_rental_management.services.ServiceInterfaces.RentalServiceInterface;
-import com.nayo.karenkou.a.emmanuel.exceptions.InvalidRentalException;
-import com.nayo.karenkou.a.emmanuel.exceptions.ResourceNotFoundException;
 
 import lombok.AllArgsConstructor;
 
