@@ -87,7 +87,6 @@ public class RentalRestController implements RentalRestAPI {
             .collect(Collectors.toList());
     }
 
-    /*
     @Override
     public List<RentalDTO> findByEmployee(EmployeeDTO employeeDTO) {
         // throw new UnsupportedOperationException("Unimplemented method 'findByEmployee'");
@@ -121,8 +120,6 @@ public class RentalRestController implements RentalRestAPI {
             .stream().map(rental -> modelMapper.map(rental, RentalDTO.class))
             .collect(Collectors.toList());
     }
-     * 
-     */
 
     @Override
     public List<RentalDTO> findByStatus(RentalStatus status) {

@@ -36,14 +36,14 @@ public interface RentalRestAPI {
 
     // List<RentalDTO> findByDateDeLocation(LocalDate dateDeLocation);
 
-    // @GetMapping("/rentals/employee")
-    // List<RentalDTO> findByEmployee(@RequestBody EmployeeDTO employeeDTO);
+    @GetMapping("/rentals/employee")
+    List<RentalDTO> findByEmployee(@RequestBody EmployeeDTO employeeDTO);
 
-    // @GetMapping("/rentals/customer")
-    // List<RentalDTO> findByCustomer(@RequestBody CustomerDTO customerDTO);
+    @GetMapping("/rentals/customer")
+    List<RentalDTO> findByCustomer(@RequestBody CustomerDTO customerDTO);
 
-    // @GetMapping("/rentals/car")
-    // List<RentalDTO> findByCar(@RequestBody CarRequest carRequest);
+    @GetMapping("/rentals/car")
+    List<RentalDTO> findByCar(@RequestBody CarRequest carRequest);
 
     @GetMapping("/rentals/status/{status}")
     List<RentalDTO> findByStatus(@PathVariable("status") RentalStatus status);
